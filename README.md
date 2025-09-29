@@ -1,5 +1,5 @@
-# Html-Css-Practice
+# Learning of Tailwind Css
 
-Learning Html &amp; Css and their practice codes
+Practice codes files are in SRC folder
 <br>
 Author - Gaurav Chaudhary.
