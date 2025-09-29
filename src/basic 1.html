@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Tailwind Css Demo</title>
+  </head>
+  <body>
+    <div
+      class="m-5 p-5 w-50 h-50 border-8 border-blue-400 bg-amber-400 text-white"
+    >
+      Basic test
+    </div>
+    <div class="bg-amber-400 max-w-80 w-150">width test</div>
+    <div class="bg-amber-400 min-w-80 w-50">width test</div>
+    <div class="bg-amber-400 max-w-120 min-w-80">width test</div>
+    <div class="bg-amber-600 w-full">width test</div>
+    <div class="bg-amber-300 w-1/2 hover:w-full">width test</div>
+
+    <div class="bg-amber-300 w-[30px] hover:w-1/2">width test</div>
+
+    <section class="flex items-center justify-center h-screen bg-gray-100">
+      <div
+        class="bg-blue-500 text-white text-center p-4 w-32 hover:w-64 transition-all duration-300"
+      >
+        Hover Me
+      </div>
+    </section>
+  </body>
+</html>
